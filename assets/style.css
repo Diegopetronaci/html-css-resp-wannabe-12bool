@@ -1,4 +1,5 @@
 body{
+  margin: auto;
   text-align: center;
 }
 
@@ -14,7 +15,8 @@ hr{
 /* utlity */
 .bg_lightgrey{
   background-color: #ededed;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .decoration_img{
@@ -23,3 +25,14 @@ hr{
   padding: 10px;
 }
 /* utlity */
+
+@media all and (max-width: 768px) {
+
+  img{
+    height: 100px;
+  }
+
+  p{
+    padding: 10px;
+  }
+}
