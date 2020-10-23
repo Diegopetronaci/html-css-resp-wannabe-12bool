@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+
+img{
+  height: 200px;
+  margin: 25px;
+}
+
+hr{
+  margin: 25px;
+}
+
+/* utlity */
+.bg_lightgrey{
+  background-color: #ededed;
+  margin: 15px;
+}
+
+.decoration_img{
+  background-color: #428bca;
+  border-radius: 999px;
+  padding: 10px;
+}
+/* utlity */
